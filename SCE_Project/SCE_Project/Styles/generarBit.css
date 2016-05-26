@@ -1,0 +1,235 @@
+﻿#etNom{
+position:absolute;
+top: 24px;
+left: 115px;
+height: 23px;
+}
+
+#txNom{
+position:absolute;
+top: 23px;
+left:179px;
+}
+
+#etHS{
+position:absolute;
+top: 49px;
+    left: 598px;
+}
+
+#txHS{
+position:absolute;
+top: 50px;
+left:704px;
+}
+
+#etNumCam{
+position:absolute;
+top: 16px;
+    left: 930px;
+}
+
+#txNumCam{
+position:absolute;
+top: 12px;
+left:1060px;
+}
+
+#etNumCaja{
+position:absolute;
+top: 51px;
+    left: 948px;
+}
+
+#txNumCaja{
+position:absolute;
+top: 49px;
+left:1061px;
+}
+
+#etHR{
+position:absolute;
+top: 86px;
+    left: 592px;
+}
+
+#txHR{
+position:absolute;
+top: 85px;
+left:703px;
+}
+
+#etFecha{
+position:absolute;
+top: 60px;
+    left: 121px;
+}
+
+#txFecha{
+position:absolute;
+top: 56px;
+left:176px;
+}
+
+#etNumRuta{
+position:absolute;
+top: 16px;
+    left: 596px;
+}
+
+#txNumRuta{
+position:absolute;
+top: 15px;
+left:705px;
+}
+
+#etKmInic{
+position:absolute;
+top: 121px;
+    left: 939px;
+}
+
+#txKmInic{
+position:absolute;
+top: 114px;
+left:1063px;
+}
+
+
+#etKmFin{
+position:absolute;
+top: 85px;
+    left: 948px;
+}
+
+#txKmFin{
+position:absolute;
+top: 80px;
+left:1061px;
+}
+
+#etCap{
+position:absolute;
+top: 154px;
+    left: 21px;
+}
+
+#txCap{
+position:absolute;
+top: 155px;
+left:173px;
+}
+
+#etRev1{
+position:absolute;
+top: 192px;
+    left: 44px;
+}
+
+#txRev1{
+position:absolute;
+top: 192px;
+left:172px;
+}
+
+#etRev2{
+position:absolute;
+top: 226px;
+    left: 58px;
+}
+
+#txRev2{
+position:absolute;
+top: 226px;
+left:171px;
+}
+
+#etComRuta{
+position:absolute;
+top: 185px;
+    left: 815px;
+}
+
+#txComRuta{
+position:absolute;
+top: 221px;
+left:592px;
+    height: 62px;
+    width: 624px;
+}
+
+#etNumRem{
+position:absolute;
+top: 326px;
+    left: 14px;
+}
+
+#txNumRem{
+position:absolute;
+top: 356px;
+left:9px;
+}
+
+#etNomCli{
+position:absolute;
+top: 326px;
+    left: 217px;
+}
+
+#txNomCli{
+position:absolute;
+top: 355px;
+left:209px;
+}
+
+#etHoraLlegada{
+position:absolute;
+top: 328px;
+    left: 418px;
+}
+
+#txHoraLlegada{
+position:absolute;
+top: 351px;
+left:440px;
+}
+
+#etHoraSal{
+position:absolute;
+top: 328px;
+left: 643px;
+}
+
+#txHoraSal{
+position:absolute;
+top: 351px;
+left:658px;
+}
+
+#etComCli{
+position:absolute;
+top: 426px;
+    left: 380px;
+    height: 22px;
+    bottom: 134px;
+}
+
+#txComCli{
+position:absolute;
+top: 454px;
+left:279px;
+width: 349px;
+height: 44px;
+}
+
+#etTD{
+position:absolute;
+top: 329px;
+    left: 867px;
+}
+
+#txTD{
+position:absolute;
+top: 352px;
+left:865px;
+}

@@ -1,0 +1,42 @@
+﻿#formEliminar {
+    position:absolute;
+    left:450px;
+}
+
+#etNom, #etTipoUsu, #etContra {
+    margin-left:50px;
+}
+
+#txIdUsu {
+    margin-left:15px;
+}
+
+#txNom, #etNom {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#etContra, #txContra {
+    margin-bottom:5px;
+    margin-top:5PX;
+}
+
+#txNom {
+    margin-left:70px;
+}
+
+#txTipoUsu {
+    margin-left:23px;
+}
+
+#txContra {
+    margin-left:50px;
+}
+
+header h2 {
+    text-align:center;
+}
+
+#btEliminar {
+    margin-left:175px;
+}

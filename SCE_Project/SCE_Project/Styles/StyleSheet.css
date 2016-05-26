@@ -1,0 +1,382 @@
+﻿/*estilo de login*/
+#bodylog {
+    color: black;
+    background-color:#e7e4e4;
+
+}
+
+#divlogin{
+    position:absolute;
+    left:260px;
+    width:850px;
+    height:500px;
+    top:50px;
+    border-color:black;
+    border-width:10px;
+  
+}
+
+#divlogin1 h1{
+    position:absolute;
+    left:448px;
+    top:50px;
+    color:white;
+    text-align:center;
+}
+
+#divlogin1 p{
+    position:absolute;
+    left:380px;
+    top:90px;
+    color:white;
+    text-align:center;
+}
+
+#divlogin1{
+    height:160px;
+    background-color:black;
+   background-image:url("landsberglogo3.png");
+   background-position:initial;
+   background-repeat:no-repeat;
+   background-size:400px;
+   background-position-x:-10px;
+   background-position-y:-15px;
+
+}
+
+#divlogin2{
+    height:170px;
+    background-color:#7b858f;
+    color:black;
+    padding:20px;
+    font-size:22px;
+
+}
+
+#formlogin{
+    text-align:center;
+    
+}
+
+#formlogin #Login1{
+    position:absolute;
+    top:170px;
+    width:500px;
+    left:240px;
+    font-family:Arial;
+    font-size:17px;
+}
+#btlogin{
+    width:100px;
+    height:30px;
+    position:absolute;
+    left:422px;
+    top:290px;
+    font-size:14px;
+    font-style:BOLD;
+    background-color:#f57836;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color:#f57836;
+}
+
+#btlogin:hover{
+    background-color:#ff6a00;
+    color:white;
+}
+
+
+/*estilo de menu principal*/
+#bodymenu{
+    color:black;
+    background-color:#e5e0e0;
+    width:100%;
+}
+
+#headermenu, #headercr{
+    background-position: 5px -30px;
+    background-color:black;
+    color:white;
+    width:100%;
+    height:180px;
+    position:absolute;
+    top:0px;
+    background-image:url('landsberglogo3.png');
+    background-size:350px;
+    background-repeat:no-repeat;
+    left: 0px;
+}
+
+#headermenu h2{
+    position:absolute;
+    left:505px;
+    color:white;
+    top:110px;
+    background-color:orangered;
+    width:400px;
+    text-align:center;
+    opacity:0.78;
+
+}
+
+#navmenu {
+    position:absolute;
+    top:-10px;
+    left:300px;
+    width:900px;
+    height:80px;
+    
+}
+#navmenu ul{
+    position:absolute;
+    top:0px;
+    left:180px;
+    width:450px;
+    height:100px;
+}
+
+#navmenu ul #imgmanb {
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:130px;
+    height:80px;
+}
+
+#navmenu ul #imgmaus{
+    position:absolute;
+    top:11px;
+    left:155px;
+    width:52px;
+    height:50px;
+}
+
+#navmenu ul #imgest {
+    position:absolute;
+    top:11px;
+    left:252px;
+    width:52px;
+    height:50px;
+    right: 292px;
+}
+
+#navmenu .mu{
+    position:absolute;
+    top:70px;
+    left:215px;
+    
+}
+
+#navmenu .mb{
+    position:absolute;
+    top:70px;
+    left:320px;
+}
+
+#navmenu .es{
+    position:absolute;
+    top:70px;
+    left:433px;
+}
+
+#navmenu .lo{
+    position:absolute;
+    top:70px;
+    left:536px;
+}
+
+#navmenu .mu, #navmenu .mb, #navmenu .es {
+    text-align:center;
+    color:white;
+    font-family:Arial;
+    font-size:12px;
+}
+
+#navmenu #LoginStatus1{
+    position:absolute;
+    top:28px;
+    left:833px;
+    color:white;
+    width:52px;
+    height: 49px;
+}
+
+#navmenu .sal{
+    position:absolute;
+    top:70px;
+    left:822px;
+    color:white;
+    font-size:12px;
+    font-family:Arial;
+    width:200px;
+}
+
+#navmenu #imgmenu{
+    position:absolute;
+    top:11px;
+    left:352px;
+    width:52px;
+    height:50px;
+    right: 292px;
+}
+
+#navmenu .men{
+    position:absolute;
+    top:70px;
+    left:533px;
+    text-align:center;
+    color:white;
+    font-family:Arial;
+    font-size:12px;
+}
+
+
+/* estilo de consultar reporte*/
+#bodycr{
+    color:black;
+    background-color:#e5e0e0;
+}
+
+#headermenu .cr{
+    text-align:center;
+    position:absolute;
+    left:525px;
+    top:110px;
+    background-color:orangered;
+    opacity:0.78;
+    width:350px;
+    text-align:center;
+}
+
+#headermenu a{
+    position:absolute;
+    left:1100px;
+    top:50px;
+    color:white;
+    z-index:3;
+}
+
+#headermenu a:hover{
+    color:#f57836;
+}
+
+.divbotones{
+    position:absolute;
+    left:470px;
+    width:400px;
+    height:50px;
+}
+
+#sectioncr{
+    width:100%;
+    height:800px;
+    position:absolute;
+    top:180px;
+    left:0px;
+    
+}
+
+#sectioncr h2{
+    position:absolute;
+    top:10px;
+    color:black;
+    left:590px;
+}
+#ddllista{
+    position:absolute;
+    top:80px;
+    width:200px;
+    left:160px;
+    height:28px;
+    font-family:Arial;
+    background-color:white;
+    color:black;
+    border-color:black;
+    border-style:solid;
+    border-width:.5px;
+}
+
+
+#fecha{
+    position:absolute;
+    top:55px;
+    width:800px;
+    left:390px;
+    height:40px;
+
+}
+
+
+
+#etfecha1{
+    position:absolute;
+    top:30px;
+    left:10px;
+    width:200px;
+    height:30px;
+    color:black;
+}
+
+#etfecha2{
+    position:absolute;
+    top:30px;
+    left:340px;
+    width:200px;
+    height:30px;
+    color:black;
+}
+
+#txfecha1{
+    position:absolute;
+    top:25px;
+    left:100px;
+    width:200px;
+    height:23px;
+}
+
+#txfecha2{
+    position:absolute;
+    top:25px;
+    left:420px;
+    width:200px;
+    height:23px;
+}
+
+#txfecha1, #txfecha2{
+   font-family:Arial;
+   font-size:14px;
+}
+
+#btest{
+    position:absolute;
+    top:25px;
+    left:640px;
+    width:100px;
+    height:25.5px;
+}
+
+#resultados{
+    position:absolute;
+    top:130px;
+    width:900px;
+    left:150px;
+    height:100px;
+}
+
+#graficas{
+    position:absolute;
+    top:20px;
+    left:200px;
+    width:900px;
+    height:500px;
+}
+
+#resultados #Charttr, #resultados #Chartkmrec, #resultados #Chartno, #resultados #Chartgen{
+    position:absolute;
+    top:500px;
+    left:200px;
+    width:500px;
+    height:200px;
+}
+
+
+

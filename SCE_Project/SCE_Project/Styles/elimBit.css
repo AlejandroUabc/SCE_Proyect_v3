@@ -1,0 +1,16 @@
+﻿#etFechaInic,#etFechaFin{
+    margin-left:40px;
+}
+
+#btBuscar{
+    margin-left:20px;
+}
+
+#GridView{
+    position:absolute;
+    top:100px;
+    left:20px;
+    /*width:600px;
+    height:400px;*/
+}
+

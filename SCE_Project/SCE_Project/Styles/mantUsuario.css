@@ -1,0 +1,95 @@
+﻿/*Consultar usuarios*/
+#btBuscarId {
+    margin-top:30px;
+    margin-left:50px;
+}
+
+#btConsultaGeneral {
+    margin-top:30px;
+    margin-left:20px;
+}
+
+#gdv1 {
+    position:absolute;
+    left:500px;
+    top:65px;
+}
+
+header h2 {
+    
+    text-align:center;
+}
+
+#formConsulta {
+    position:absolute;
+    left:100px;
+}
+
+/*Modificar usuario*/
+
+#formModificar {
+    position:absolute;
+    left:420px;
+}
+
+h2 #titulo {
+    text-align: center;
+}
+
+#etNom, #etTipoUsu, #etContra, #etIdUsu, #etNomUsu {
+    margin-left:50px;
+}
+
+#txIdUsu {
+    margin-left:15px;
+}
+
+#txNom, #etNom, #txNomUsu {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#etContra, #txContra {
+    margin-bottom:5px;
+    margin-top:5PX;
+}
+
+#txNom, #txNomUsu {
+    margin-left:55px;
+}
+
+#ddlTipoUsu {
+    margin-left:8px;
+}
+
+#txContra {
+    margin-left:35px;
+}
+
+#btModificar {
+    margin-left:160px;
+    margin-top:20px;
+}
+
+/*Registrar usuario*/
+#formRegistrar {
+    position:absolute;
+    left:420px;
+}
+
+header h2 {
+    text-align:center;
+}
+
+#txIdUsuRegistrar {
+    margin-left:40px;
+}
+
+#btCancelar {
+    margin-left:50px;
+    margin-top:10px;
+}
+
+#btRegistrarS, #btRegistrarC {
+    margin-left:50px;
+}

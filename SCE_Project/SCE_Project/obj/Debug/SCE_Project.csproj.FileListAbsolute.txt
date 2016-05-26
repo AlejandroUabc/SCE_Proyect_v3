@@ -1,0 +1,143 @@
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\roslyn\csc.exe
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\roslyn\System.Collections.Immutable.dll
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\roslyn\vbc.exe
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\roslyn\VBCSCompiler.exe
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\roslyn\VBCSCompiler.exe.config
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\SCE_Project.dll.config
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\SCE_Project.dll
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\SCE_Project.pdb
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\MySql.Data.dll
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\obj\Debug\SCE_Project.dll
+c:\users\bernardo\documents\visual studio 2015\Projects\SCE_Project\SCE_Project\obj\Debug\SCE_Project.pdb
+C:\Users\Bernardo\Documents\Visual Studio 2015\Projects\SCE_Project\SCE_Project\obj\Debug\SCE_Project.csprojResolveAssemblyReference.cache
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\csc.exe
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\vbc.exe
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\SCE_Project.dll
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\SCE_Project.pdb
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\obj\Debug\SCE_Project.csprojResolveAssemblyReference.cache
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\obj\Debug\SCE_Project.dll
+C:\Users\alejandro\Documents\Visual Studio 2012\proyecto copia\SCE_Project\SCE_Project\obj\Debug\SCE_Project.pdb
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\csc.exe
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\vbc.exe
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\SCE_Project.dll.config
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\SCE_Project.dll
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\SCE_Project.pdb
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\MySql.Data.dll
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\obj\Debug\SCE_Project.csprojResolveAssemblyReference.cache
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\obj\Debug\SCE_Project.dll
+C:\Users\Bernardo\Desktop\proyecto copia\SCE_Project\SCE_Project\obj\Debug\SCE_Project.pdb
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\csc.exe
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\System.Collections.Immutable.dll
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\System.Reflection.Metadata.dll
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\vbc.exe
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\VBCSCompiler.exe
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\VBCSCompiler.exe.config
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\SCE_Project.dll
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\SCE_Project.pdb
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\obj\Debug\SCE_Project.csprojResolveAssemblyReference.cache
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\obj\Debug\SCE_Project.dll
+H:\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\obj\Debug\SCE_Project.pdb
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\csc.exe
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\vbc.exe
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\SCE_Project.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\SCE_Project.pdb
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\obj\Debug\SCE_Project.csprojResolveAssemblyReference.cache
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\obj\Debug\SCE_Project.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\obj\Debug\SCE_Project.pdb
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\SCE_Project.dll.config
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\MySql.Data.dll
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\csc.exe
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\System.Collections.Immutable.dll
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\System.Reflection.Metadata.dll
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\vbc.exe
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\VBCSCompiler.exe
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\VBCSCompiler.exe.config
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\SCE_Project.dll.config
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\SCE_Project.dll
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\SCE_Project.pdb
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\MySql.Data.dll
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\obj\Debug\SCE_Project.csprojResolveAssemblyReference.cache
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\obj\Debug\SCE_Project.dll
+D:\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\obj\Debug\SCE_Project.pdb
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\csc.exe
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\vbc.exe
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\VBCSCompiler.exe
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\SCE_Project.dll.config
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\SCE_Project.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\SCE_Project.pdb
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\MySql.Data.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\obj\Debug\SCE_Project.csprojResolveAssemblyReference.cache
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\obj\Debug\SCE_Project.dll
+C:\Users\alejandro\Desktop\UABC 2016-1\Control de entregas 3\Control de entregas-2 23 pm\v1.3\4 Implementacion\SCE_Project\SCE_Project\obj\Debug\SCE_Project.pdb

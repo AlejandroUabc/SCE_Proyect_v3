@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SCE_Project.ComandoSQLLog" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAE=</HashCode>
+      <FileName>ComandoSQLLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Conexion" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAABAAAAABAAA=</HashCode>
+      <FileName>Conexion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.WebForm1" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAIAAAAIAAgA=</HashCode>
+      <FileName>Menu_principal.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Consulta_reportes.ComandoSQLCon" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAIAAAAIAAIAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Consulta reportes\ComandoSQLCon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Consulta_reportes.Consultar_reportes" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAoABAAAAAARAAIgAAAAgAAQABAEIAAAA=</HashCode>
+      <FileName>Consulta reportes\Consultar_reportes.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Login.Login">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAABAAAAAAAAAAAAAAAAAUAAIAAAA=</HashCode>
+      <FileName>Login.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimienro_Bitacora.ComandoSQL" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAKAAAAAAAAgAAIAAAAQAAAAAAAAEAAAAAQAAAAAA=</HashCode>
+      <FileName>Mantenimiento Bitacora\ComandoSQL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimienro_Bitacora.conexion" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAASAAAAAAAAAAAAIAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Mantenimiento Bitacora\conexion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimienro_Bitacora.consultaBit" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hgAKIUABBAgACACGQgAABIEqMKABBEQDJAI8AGJAEEM=</HashCode>
+      <FileName>Mantenimiento Bitacora\consultaBit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimienro_Bitacora.elimBit" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAIUAAAAgAAIAEAgAABAEiICABAAABIAAEAAIAAAA=</HashCode>
+      <FileName>Mantenimiento Bitacora\elimBit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimienro_Bitacora.encabezadoBit" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAUAAAAFAIAAAAAAAEAABAAAAIABAAUQwAgA=</HashCode>
+      <FileName>Mantenimiento Bitacora\encabezadoBit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimienro_Bitacora.registro" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hgAKAEABAQAACAAAAAAABIAIIKAABmZDpAI4AGIBEEM=</HashCode>
+      <FileName>Mantenimiento Bitacora\generarBit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimienro_Bitacora.MantBit" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAIAAABAAEABAABgAIAIAA=</HashCode>
+      <FileName>Mantenimiento Bitacora\MantBit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimienro_Bitacora.modBit" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hgAKIUABgAgACACGQgAAFIEqMKABBGQDJAI8AWJAFEM=</HashCode>
+      <FileName>Mantenimiento Bitacora\modBit.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimienro_Bitacora.mostrarBit3" Collapsed="true">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAIAAAAEAwAAA=</HashCode>
+      <FileName>Mantenimiento Bitacora\mostrarBit3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimiento_usuario.ComandoSqlMU" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAGIAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAQAAE=</HashCode>
+      <FileName>Mantenimiento usuario\ComandoSqlMU.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimiento_usuario.Consultar_Usuarios" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAIAAAAAAAAQBAAAAAAAAIBAAYAAABAAAAgIAAAg=</HashCode>
+      <FileName>Mantenimiento usuario\Consultar Usuarios.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimiento_usuario.Eliminar_Usuario" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAIAAAAABAAAQACABAAAAAIAAAYAAAJAAIAgJAAAg=</HashCode>
+      <FileName>Mantenimiento usuario\Eliminar Usuario.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimiento_usuario.Menu_Usuario" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAABAAAAAAAAAAAQEAAIAAQAAEABAAAAAIAIAA=</HashCode>
+      <FileName>Mantenimiento usuario\Menu_Usuario.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimiento_usuario.Modificar_Usuario" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAQAABBAAUAAABAAAAAIAAAcCAAJAAKAgJAYBg=</HashCode>
+      <FileName>Mantenimiento usuario\Modificar Usuario.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimiento_usuario.Registar_Usuarios" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAAAAEABBAGUAIIJAAAAAIAAGUAAAAAIKAAIBQAw=</HashCode>
+      <FileName>Mantenimiento usuario\Registar Usuarios.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCE_Project.Mantenimiento_usuario.Usuario" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAACEAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Mantenimiento usuario\Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
