@@ -45,12 +45,14 @@ namespace SCE_Project.Mantenimienro_Bitacora
         //El método cargar trae consigo 
         private void cargar()
         {
+           
             comm.Conectar();
-            List<string> clist = comm.CargarNombre();
+            List<string> clist = comm.CargarNombre("CargarUsuarios");
             foreach (string li in clist)
             {
                 ddlNom.Items.Add(li);
             }
+            
         }
 
         //BtReg_Click es el método que se activa al dar click en el botón "Registrar Bitácora"
@@ -89,11 +91,30 @@ namespace SCE_Project.Mantenimienro_Bitacora
             }
             else
             {
-                 //En caso de que la bitácora alla sido llenada satisfactoriamente se hace abre la conexión,
-                 //se registran los datos en la tabla bitacoraencabezado a partir del queryExecute
-                 //y se limpian los campos para poder ser llenada nuevamente
+                //En caso de que la bitácora alla sido llenada satisfactoriamente se hace abre la conexión,
+                //se registran los datos en la tabla bitacoraencabezado a partir del queryExecute
+                //y se limpian los campos para poder ser llenada nuevamente
+                encabezadoBit bit = new encabezadoBit();
+                bit.nomUsu = ddlNom.Text;
+                bit.hs = txHS.Text;
+                bit.hr = txHR.Text;
+                bit.kmInic = txKmInic.Text;
+                bit.kmFin = txKmFin.Text;
+                bit.comRuta = txComRuta.Text;
+                bit.noCam = txNumCam.Text;
+                bit.noCaja = txNumCaja.Text;
+                bit.fecha = txFecha.Text;
+                bit.noRuta = txNumRuta.Text;
+                bit.revPap = ddlRev.Text;
+                bit.capCam = ddlCap.Text;
+                bit.noRem = txNumRem.Text;
+                bit.nomCliente = txNomCli.Text;
+                bit.hLlegadaCli = txHoraLlegada.Text;
+                bit.hSalCli = txHoraSal.Text;
+                bit.tiempoDesc = txTD.Text;
+                bit.comClie = txComCli.Text;
                 comm.Conectar();
-                comm.queryExecute("insert into bitacoraencabezado (nomUsu, hs, hr, kmInic, kmFin, comRuta, noCam, noCaja, fecha, noRuta, revPap, capCam,  noRem, nomCliente, hLlegadaCli, hSalCli,  tiempoDesc, comCli) values('" + ddlNom.Text + "','" + txHS.Text + "','" + txHR.Text + "','" + txKmInic.Text + "','" + txKmFin.Text + "','" + txComRuta.Text + "','" + txNumCam.Text + "','" + txNumCaja.Text + "','" + txFecha.Text + "','" + txNumRuta.Text + "','" + ddlRev.Text + "','" + ddlCap.Text + "','" + txNumRem.Text + "','" + txNomCli.Text + "','" + txHoraLlegada.Text + "','" + txHoraSal.Text + "','" + txTD.Text + "', '" + txComCli.Text + "')");
+                comm.queryExecute("RegistrarBitacora",bit);
                 Response.Write("<script language=javascript>alert('Registro exitoso!')</script>");
                 ddlNom.SelectedIndex = 0;
                 txHS.Text = " ";

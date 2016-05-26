@@ -7,7 +7,17 @@ namespace SCE_Project.Consulta_reportes
 {
     public class NumeroRutas
     {
-        public string noRuta
+        public string NoOrden
+        {
+            get;
+            set;
+        }
+        public string Nombre
+        {
+            get;
+            set;
+        }
+        public string Fecha
         {
             get;
             set;

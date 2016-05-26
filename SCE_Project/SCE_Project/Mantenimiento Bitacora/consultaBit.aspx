@@ -31,8 +31,8 @@
                      <asp:BoundField DataField="idBitacoraid" HeaderText="ID Bitácora" SortExpression="idBitacoraid" />
                      <asp:BoundField DataField="nomUsu" HeaderText="Nombre" SortExpression="nomUsu" />
                      <asp:BoundField DataField="fecha" HeaderText="Fecha" SortExpression="fecha" />
-                     <asp:BoundField DataField="noRuta" HeaderText="Numero de ruta" SortExpression="noRuta" />
-                     <asp:BoundField DataField="noCam" HeaderText="Numero de camión" SortExpression="noCam" />
+                     <asp:BoundField DataField="noRuta" HeaderText="Número de ruta" SortExpression="noRuta" />
+                     <asp:BoundField DataField="noCam" HeaderText="Número de camión" SortExpression="noCam" />
                      <asp:CommandField ShowSelectButton="True" SelectText="Seleccionar" />
                  </Columns>
                  <FooterStyle BackColor="#CCCC99" />

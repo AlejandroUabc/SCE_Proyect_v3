@@ -116,6 +116,7 @@
     <Content Include="Scripts\jquery-1.11.3.min.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\jquery-compat-git.js" />
+    <Content Include="Scripts\ocultar.js" />
     <Content Include="Styles\consultaBit.css" />
     <Content Include="Styles\elimBit.css" />
     <Content Include="Styles\Encabezado.css" />
@@ -142,6 +143,7 @@
     <Compile Include="Consulta reportes\Consultar_reportes.aspx.designer.cs">
       <DependentUpon>Consultar_reportes.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Consulta reportes\EstadisticasGenerales.cs" />
     <Compile Include="Consulta reportes\KilometrosRecorridos.cs" />
     <Compile Include="Consulta reportes\NumeroRutas.cs" />
     <Compile Include="Consulta reportes\TiempoRuta.cs" />

@@ -23,15 +23,15 @@
     </div>
 
         <div id="GridView">
-            <asp:Panel ID="Panel1" runat="server">
+            <asp:Panel ID="Panel1" runat="server" ScrollBars="Vertical">
              <asp:GridView ID="gdvBit" runat="server" AutoGenerateColumns="False" OnSelectedIndexChanged="gdv1_SelectedIndexChanged1" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Vertical">
                  <AlternatingRowStyle BackColor="White" />
                  <Columns>
-                     <asp:BoundField DataField="idBitacoraid" HeaderText="ID Bitacora" SortExpression="idBitacoraid" />
+                     <asp:BoundField DataField="idBitacoraid" HeaderText="ID Bitácora" SortExpression="idBitacoraid" />
                      <asp:BoundField DataField="nomUsu" HeaderText="Nombre" SortExpression="nomUsu" />
                      <asp:BoundField DataField="fecha" HeaderText="Fecha" SortExpression="fecha" />
-                     <asp:BoundField DataField="noRuta" HeaderText="Numero de ruta" SortExpression="noRuta" />
-                     <asp:BoundField DataField="noCam" HeaderText="Numero de camion" SortExpression="noCam" />
+                     <asp:BoundField DataField="noRuta" HeaderText="Número de ruta" SortExpression="noRuta" />
+                     <asp:BoundField DataField="noCam" HeaderText="Número de camión" SortExpression="noCam" />
                      <asp:CommandField ShowSelectButton="True" SelectText="Seleccionar" />
                  </Columns>
                  <FooterStyle BackColor="#CCCC99" />
@@ -47,7 +47,7 @@
          </asp:Panel>
             </div>
         
-        <asp:Button ID="btEliminar" runat="server" Text="Eliminar Bitácora" OnClick="btEliminar_Click" />
+        <asp:Button ID="btEliminar"  runat="server" Text="Eliminar Bitácora" OnClick="btEliminar_Click" OnClientClick='javascript:return confirm("Seguro que desea eliminar el registro?")' />
         <asp:Label ID="etNom2" runat="server" Text="idBitacora"></asp:Label>
     </form>
 </body>

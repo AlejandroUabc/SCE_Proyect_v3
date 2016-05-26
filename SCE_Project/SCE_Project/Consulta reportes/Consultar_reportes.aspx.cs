@@ -23,6 +23,13 @@ namespace SCE_Project.Consulta_reportes
 
             com = new ComandoSQLCon();
             cargar();
+            gdv1.Visible = false;
+            etres1.Visible = false;
+            etres2.Visible = false;
+
+            txres1.Visible = false;
+            txres2.Visible = false;
+
 
 
         }
@@ -35,49 +42,109 @@ namespace SCE_Project.Consulta_reportes
 
         protected void btest_Click(object sender, EventArgs e)
         {
-            if (ddllista.SelectedIndex == 1)
-            {
-                com.conectar();
+            //el metodo btest_Click hace la ejecución de un botón el cual visualizará las consultas correspondientes
+            DateTime fechaInic = Convert.ToDateTime(txfecha1.Text);
+            DateTime fechaFin = Convert.ToDateTime(txfecha2.Text);
 
-                GridView1.DataSource = com.consultaTiempoenRuta(txfecha1.Text, txfecha2.Text);
-                GridView1.DataBind();
-                GridView1.Visible = true;
+            if (fechaInic > fechaFin)
+            {
+                //Se valida la fecha que no sea mayor a la segunda fecha
+                Response.Write("<script language='JavaScript'>alert('La fecha inicial no puede ser mayor que la fecha final');</script>");
             }
-            if (ddllista.SelectedIndex == 2)
-            {
-                com.conectar();
+            else {
+                if (ddllista.SelectedIndex == 0)
+                {
+                    Response.Write("<script language='JavaScript'>alert('No has seleccionado ninguna opción.');</script>");
+                    gdv1.Visible = false;
+                    etres1.Visible = false;
+                    etres2.Visible = false;
 
-                GridView1.DataSource = com.consultaKmRecorrido(txfecha1.Text, txfecha2.Text);
-                GridView1.DataBind();
-                GridView1.Visible = true;
-            }
-            if (ddllista.SelectedIndex == 3)
-            {
-                com.conectar();
+                    txres1.Visible = false;
+                    txres2.Visible = false;
 
-                GridView1.DataSource = com.consultaNumOrdenes(txfecha1.Text, txfecha2.Text);
-                GridView1.DataBind();
-                GridView1.Visible = true;
-            }
-            if (ddllista.SelectedIndex == 4)
-            {
-                com.conectar();
+                }
 
-                GridView1.DataSource = com.consultaKmRecorrido(txfecha1.Text, txfecha2.Text);
-                GridView1.DataBind();
-                GridView1.Visible = true;
+                if (ddllista.SelectedIndex == 1)
+                {
+                    com.conectar();
+                    etres1.Visible = true;
+                    etres2.Visible = false;
 
-                com.conectar();
+                    txres1.Visible = true;
+                    txres2.Visible = false;
 
-                GridView1.DataSource = com.consultaKmRecorrido(txfecha1.Text, txfecha2.Text);
-                GridView1.DataBind();
-                GridView1.Visible = true;
 
-                com.conectar();
+                    gdv1.DataSource = com.consultaTiempoenRuta(txfecha1.Text, txfecha2.Text);
+                    gdv1.DataBind();
+                    gdv1.Visible = true;
+                    double total = 0;
+                    for (int x = 0; x < gdv1.Rows.Count; x++)
+                    {
+                        total = total + double.Parse(gdv1.Rows[x].Cells[0].Text);
+                    }
+                    txres1.Text = total.ToString();
+                }
 
-                GridView1.DataSource = com.consultaTiempoenRuta(txfecha1.Text, txfecha2.Text);
-                GridView1.DataBind();
-                GridView1.Visible = true;
+                if (ddllista.SelectedIndex == 2)
+                {
+                    com.conectar();
+                    etres1.Visible = false;
+                    etres2.Visible = true;
+
+                    txres1.Visible = false;
+                    txres2.Visible = true;
+
+                    gdv1.DataSource = com.consultaKmRecorrido(txfecha1.Text, txfecha2.Text);
+                    gdv1.DataBind();
+                    gdv1.Visible = true;
+                    double total = 0;
+                    for (int x = 0; x < gdv1.Rows.Count; x++)
+                    {
+                        total = total + double.Parse(gdv1.Rows[x].Cells[0].Text);
+                    }
+                    txres2.Text = total.ToString();
+
+                }
+                if (ddllista.SelectedIndex == 3)
+                {
+                    com.conectar();
+                    etres1.Visible = false;
+                    etres2.Visible = false;
+
+                    txres1.Visible = false;
+                    txres2.Visible = false;
+
+                    gdv1.DataSource = com.consultaNumOrdenes(txfecha1.Text, txfecha2.Text);
+                    gdv1.DataBind();
+                    gdv1.Visible = true;
+
+                }
+
+                if (ddllista.SelectedIndex == 4)
+                {
+                    com.conectar();
+                    etres1.Visible = true;
+                    etres2.Visible = true;
+
+                    txres1.Visible = true;
+                    txres2.Visible = true;
+
+                    gdv1.DataSource = com.consultaEstGen(txfecha1.Text, txfecha2.Text);
+                    gdv1.DataBind();
+                    gdv1.Visible = true;
+                    double tr = 0;
+                    double km = 0;
+                    for (int x = 0; x < gdv1.Rows.Count; x++)
+                    {
+                        tr = tr + double.Parse(gdv1.Rows[x].Cells[0].Text);
+                        km = km + double.Parse(gdv1.Rows[x].Cells[1].Text);
+                    }
+                    txres1.Text = tr.ToString();
+                    txres2.Text = km.ToString();
+
+
+
+                }
             }
 
         }

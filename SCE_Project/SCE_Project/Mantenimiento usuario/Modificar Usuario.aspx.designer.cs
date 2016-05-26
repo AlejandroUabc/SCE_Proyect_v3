@@ -85,22 +85,40 @@ namespace SCE_Project.Mantenimiento_usuario {
         protected global::System.Web.UI.WebControls.TextBox txNom;
         
         /// <summary>
-        /// rfvNom control.
+        /// rfvNomC control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvNom;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvNomC;
         
         /// <summary>
-        /// revNom control.
+        /// revNomC control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator revNom;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revNomC;
+        
+        /// <summary>
+        /// rfvNomS control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvNomS;
+        
+        /// <summary>
+        /// revNomS control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revNomS;
         
         /// <summary>
         /// etTipoUsu control.
@@ -121,13 +139,22 @@ namespace SCE_Project.Mantenimiento_usuario {
         protected global::System.Web.UI.WebControls.DropDownList ddlTipoUsu;
         
         /// <summary>
-        /// rfvTipoUsu control.
+        /// rfvTipo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTipoUsu;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTipo;
+        
+        /// <summary>
+        /// rfvTipoS control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTipoS;
         
         /// <summary>
         /// etContra control.
@@ -166,13 +193,22 @@ namespace SCE_Project.Mantenimiento_usuario {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator revContra;
         
         /// <summary>
-        /// btModificar control.
+        /// btModificarS control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btModificar;
+        protected global::System.Web.UI.WebControls.Button btModificarS;
+        
+        /// <summary>
+        /// btModificarC control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btModificarC;
         
         /// <summary>
         /// btCancelar control.

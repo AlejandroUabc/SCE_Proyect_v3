@@ -27,7 +27,7 @@
        
     </nav>
     <section id="sectioncr">
-        <
+        
         <h2>Consultar Reporte</h2>
         <asp:DropDownList ID="ddllista" runat="server">
             <asp:ListItem Text="Selecciona una opción..." Value="0"></asp:ListItem>
@@ -36,16 +36,39 @@
             <asp:ListItem Text="Número de Ordenes" Value="3"></asp:ListItem>
             <asp:ListItem Text="Estadísticas Generales" Value="4"></asp:ListItem>
         </asp:DropDownList>
+        <asp:RequiredFieldValidator ID="rfvddllista" runat="server" ErrorMessage="*" ControlToValidate="ddllista" InitialValue="0" Text="*"></asp:RequiredFieldValidator>
         <div id="fecha">
-        <asp:TextBox ID="txfecha1" runat="server" TextMode="Date"></asp:TextBox>
-        <asp:TextBox ID="txfecha2" runat="server" TextMode="Date"></asp:TextBox>
+        <asp:TextBox ID="txfecha1" runat="server" TextMode="Date" ValidateRequestMode="Enabled" required="required"></asp:TextBox>
+        <asp:TextBox ID="txfecha2" runat="server" TextMode="Date" ValidateRequestMode="Enabled" required="required"></asp:TextBox>
         <asp:Label ID="etfecha1" runat="server" Text="Fecha Inicial:"></asp:Label>
         <asp:Label ID="etfecha2" runat="server" Text="Fecha Final:"></asp:Label>
         
         </div>
         <asp:Button ID="btest" runat="server" Text="Buscar" OnClick="btest_Click" />
-        <asp:GridView ID="GridView1" runat="server">
+
+        <div id="resultados">
+        
+
+        <asp:GridView ID="gdv1" runat="server" BackColor="White" BorderColor="#999999" BorderStyle="Solid" BorderWidth="1px" CellPadding="3" ForeColor="Black" GridLines="Vertical">
+            <AlternatingRowStyle BackColor="#CCCCCC" />
+            <FooterStyle BackColor="#CCCCCC" />
+            <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
+            <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
+            <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+            <SortedAscendingCellStyle BackColor="#F1F1F1" />
+            <SortedAscendingHeaderStyle BackColor="#808080" />
+            <SortedDescendingCellStyle BackColor="#CAC9C9" />
+            <SortedDescendingHeaderStyle BackColor="#383838" />
         </asp:GridView>
+            
+            <asp:TextBox ID="txres1" runat="server" Enabled="False"></asp:TextBox>
+            <asp:Label ID="etres1" runat="server" Text="Tiempo en ruta:"></asp:Label>
+            <asp:Label ID="etres2" runat="server" Text="Kilometraje recorrido:"></asp:Label>
+            <asp:TextBox ID="txres2" runat="server" Enabled="False"></asp:TextBox>
+            
+        </div>
+
+        
 
     </section>   
         </form>

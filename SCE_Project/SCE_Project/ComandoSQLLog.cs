@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using MySql.Data.MySqlClient;
+using System.Data;
 
 namespace SCE_Project
 {
@@ -15,12 +16,12 @@ namespace SCE_Project
         }
         public bool ValidateUser(string id,string contra)
         {
-            conexion.abrir();
             Boolean band = false;
-            MySqlCommand query = conexion.getConexion().CreateCommand();
-            query.CommandText = "SELECT * from usuario ";
-            MySqlDataReader red = query.ExecuteReader();
-            //lookupPassword = (string)query.ExecuteScalar();
+            conexion.abrir();
+            MySqlConnection con = conexion.getConexion();
+            MySqlCommand comando = new MySqlCommand("Login", con);
+            comando.CommandType = CommandType.StoredProcedure;
+            MySqlDataReader red = comando.ExecuteReader();
 
             while (red.Read())
             {

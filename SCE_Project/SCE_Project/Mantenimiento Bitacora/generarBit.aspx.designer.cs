@@ -40,6 +40,15 @@ namespace SCE_Project.Mantenimienro_Bitacora {
         protected global::System.Web.UI.WebControls.DropDownList ddlNom;
         
         /// <summary>
+        /// RfvddlNom control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RfvddlNom;
+        
+        /// <summary>
         /// etFecha control.
         /// </summary>
         /// <remarks>
