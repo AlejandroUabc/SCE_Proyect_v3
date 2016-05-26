@@ -5,16 +5,23 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using MySql.Data.MySqlClient;
+using System.Globalization;
 
 namespace SCE_Project.Mantenimienro_Bitacora
 {
     public partial class modBit : System.Web.UI.Page
     {
         ComandoSQL comm;
+
+        //método Page_Load carga la página
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+            //Se intancia la clase ComandoSQL que contiene el manejo de
+            //la base de datos para hacer un uso mas practico de la conexión
             comm = new ComandoSQL();
+
+            //Se hace uso del método Cargar() creado con anterioridad, para que cargue 
+            //los choferes que estén registrados
             cargar();
 
             txFechaCon.Text = DateTime.Now.ToString("YYYY-MM-DD");
@@ -41,7 +48,7 @@ namespace SCE_Project.Mantenimienro_Bitacora
             camion3.Visible = false;
             camion.Visible = false;
             camion2.Visible = false;
-            
+
 
             etFechaCon.Visible = false;
             etCapCon.Visible = false;
@@ -66,65 +73,76 @@ namespace SCE_Project.Mantenimienro_Bitacora
 
         private void cargar()
         {
+           
             comm.Conectar();
-            List<string> clist = comm.CargarNombre();
+            List<string> clist = comm.CargarNombre("CargarUsuarios");
             foreach (string li in clist)
             {
                 ddlNom.Items.Add(li);
             }
+           
         }
 
         private List<mostrarBit3> cargarBit()
         {
             comm.Conectar();
-            List<mostrarBit3> lista = comm.CargarConsulta(txFechaInic.Text, txFechaFin.Text);
+            List<mostrarBit3> lista = comm.CargarConsulta("CargarConsulta", txFechaInic.Text, txFechaFin.Text);
             return lista;
         }
         private List<mostrarBit3> cargarBitEsp()
         {
             comm.Conectar();
-            List<mostrarBit3> lista = comm.CargarConsultaEspecifica(txFechaInic.Text, txFechaFin.Text, ddlNom.Text);
+            List<mostrarBit3> lista = comm.CargarConsultaEspecifica("CargarConsultaEspecifica", txFechaInic.Text, txFechaFin.Text, ddlNom.Text);
             return lista;
         }
 
+        //Busca las bitácoras en los rangos especificados y despliega una tabla con los datos
         protected void btBuscar_Click(object sender, EventArgs e)
         {
-            
+            //Se hace una conversión donde convierte una cadena a tipo hora
             DateTime fechaFin = Convert.ToDateTime(txFechaInic.Text);
             DateTime fechaInic = Convert.ToDateTime(txFechaFin.Text);
-            
 
 
-            
+
+            //Se compara que fechaInic no sea mayor que fechaFin para tener un mejor resultado sobre la búsqueda
             if (fechaFin > fechaInic)
             {
                 Response.Write("<script language=javascript>alert('La fecha inicial no puede ser mayor que la fecha final!')</script>");
 
             }
-            
-            else
+
+            //Se hace una comparación donde si ddlNom está en el value=0 cargara todas las bitácoras
+            //dónde esten todos los choferes relacionados con la fecha buscada estipulado en el método CargarBit()
+            else {
                 if (ddlNom.SelectedIndex == 0)
-            {
-                this.gdvBit.DataSource = cargarBit();
-                gdvBit.DataBind();
-                gdvBit.Visible = true;
-                cargar();
-                //Lista.Items.Clear();
-                //cargar();
+                {
+                    this.gdvBit.DataSource = cargarBit();
+                    gdvBit.DataBind();
+                    gdvBit.Visible = true;
+                    cargar();
+
+                }
+
+                //si selecciona un nombre sólo las bitácoras buscadas con el nombre específico apareceran
+                else {
+                    gdvBit.DataSource = cargarBitEsp();
+                    gdvBit.DataBind();
+                    gdvBit.Visible = true;
+                    cargar();
+                }
             }
-            else
-                gdvBit.DataSource = cargarBitEsp();
-            gdvBit.DataBind();
-            gdvBit.Visible = true;
-            cargar();
         }
 
         GridViewRow row;
+        //Muestra la tabla con los datos de la bitácora encontrada
         protected void gdv1_SelectedIndexChanged1(object sender, EventArgs e)
         {
 
 
             row = gdvBit.SelectedRow;
+
+            //Toma los datos de la bitácora del renglon seleccionado y los iguala a un label para despúes ser utilizado
             etNom2.Text = row.Cells[0].Text;
 
             gdvBit.Visible = false;
@@ -179,9 +197,9 @@ namespace SCE_Project.Mantenimienro_Bitacora
             camion2.Visible = true;
 
             comm.Conectar();
-            encabezadoBit bit = comm.obtenerBitacora(etNom2.Text);
-            
-            
+            encabezadoBit bit = comm.obtenerBitacora("ObtenerBitacora", etNom2.Text);
+
+
             //Se hace una comparación donde se posiciona el textbox en la revisión de papeleo con el que se habia registrado
             // y se le da la opcion al supervisor de modificar ese dato
             if ((string.Compare(bit.revPap, "Mañana") == 0))
@@ -192,7 +210,7 @@ namespace SCE_Project.Mantenimienro_Bitacora
             {
                 ddlRevPapCon.SelectedIndex = 2;
             }
-            
+
             //Se hace una comparación donde se posiciona el textbox en el porcentaje con el que se habia registrado
             // y se le da la opcion al supervisor de modificar ese dato
             if (string.Compare(bit.capCam, "10%") == 0)
@@ -236,9 +254,13 @@ namespace SCE_Project.Mantenimienro_Bitacora
                 ddlCapCon.SelectedIndex = 10;
             }
 
+            string[] fecha = bit.fecha.Split(' ');
+            txFechaCon.Text = fecha[0];
 
-            
-            txFechaCon.Text = bit.fecha;
+            //txFechaCon.Text = bit.fecha;
+
+
+
             txKmInic.Text = bit.kmInic;
             txKmFin.Text = bit.kmFin;
             txNumCaja.Text = bit.noCaja;
@@ -255,9 +277,10 @@ namespace SCE_Project.Mantenimienro_Bitacora
             txNumCam.Text = bit.noCam;
         }
 
-
+        // se hace la modificación de los datos 
         protected void btModificar_Click(object sender, EventArgs e)
         {
+            //Se hacen diferentes conversiones para después poder hacer validaciones especificadas en los IF
             int KmFin, KmInic;
             KmFin = Convert.ToInt32(txKmFin.Text);
             KmInic = Convert.ToInt32(txKmInic.Text);
@@ -272,20 +295,39 @@ namespace SCE_Project.Mantenimienro_Bitacora
             }
             else
                 if (HS > HR)
-                {
-                    Response.Write("<script language=javascript>alert('La hora de salida no puede ser menor que la hora de regreso!')</script>");
-                }
-                else
+            {
+                Response.Write("<script language=javascript>alert('La hora de salida no puede ser menor que la hora de regreso!')</script>");
+            }
+            else
                     if (HoraSal < HoraLlegada)
-                    {
-                        Response.Write("<script language=javascript>alert('La hora de salida con el cliente no puede ser menor que la <br> hora de llegada con el cliente!')</script>");
-                    }
-                    else
-                    {
-                        comm.Conectar();
-                        comm.queryExecute("UPDATE bitacoraencabezado SET fecha='" + txFechaCon.Text + "', capCam='" + ddlCapCon.Text + "', revPap=" + ddlRevPapCon.SelectedIndex + ", kmInic='" + txKmInic.Text + "', kmFin='" + txKmFin.Text + "', noCaja='" + txNumCaja.Text + "', hr='" + txHR.Text + "', hs='" + txHS.Text + "', comRuta='" + txComRuta.Text + "', noRem=" + txNumRem.Text + ", nomCliente='" + txNomCli.Text + "', hLlegadaCli='" + txHoraLlegada.Text + "', hSalCli='" + txHoraSal.Text + "', comCli='" + txComCli.Text + "', tiempoDesc=" + txTD.Text + ", noRuta=" + txNumRuta.Text + ", noCam='" + txNumCam.Text + "' WHERE idBitacoraid=" + etNom2.Text + " ");
-                        Response.Write("<script language=javascript>alert('Modificación exitosa!')</script>");
-                    }
+            {
+                Response.Write("<script language=javascript>alert('La hora de salida con el cliente no puede ser menor que la <br> hora de llegada con el cliente!')</script>");
+            }
+            else
+            {
+                encabezadoBit bit = new encabezadoBit();
+                bit.idBitacoraid = etNom2.Text;
+                bit.nomUsu = ddlNom.Text;
+                bit.hs = txHS.Text;
+                bit.hr = txHR.Text;
+                bit.kmInic = txKmInic.Text;
+                bit.kmFin = txKmFin.Text;
+                bit.comRuta = txComRuta.Text;
+                bit.noCam = txNumCam.Text;
+                bit.noCaja = txNumCaja.Text;
+                bit.noRuta = txNumRuta.Text;
+                bit.revPap = ddlRevPapCon.Text;
+                bit.capCam = ddlCapCon.Text;
+                bit.noRem = txNumRem.Text;
+                bit.nomCliente = txNomCli.Text;
+                bit.hLlegadaCli = txHoraLlegada.Text;
+                bit.hSalCli = txHoraSal.Text;
+                bit.tiempoDesc = txTD.Text;
+                bit.comClie = txComCli.Text;
+                comm.Conectar();
+                comm.queryExecuteMod("ModificarBitacora", bit);
+                Response.Write("<script language=javascript>alert('Modificación exitosa!')</script>");
+            }
         }
     }
 }

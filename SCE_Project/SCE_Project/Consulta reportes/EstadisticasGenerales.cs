@@ -5,24 +5,37 @@ using System.Web;
 
 namespace SCE_Project.Consulta_reportes
 {
-    public class KilometrosRecorridos
+    public class EstadisticasGenerales
     {
+        
+        public string TiempoEnRuta
+        {
+            get;
+            set;
+        }
         public string KmRecorridos
         {
             get;
             set;
         }
-        
-        public string Nombre
+
+        public string NoOrden
         {
             get;
             set;
         }
 
+        public string Nombre
+        {
+            get;
+            set;
+        }
         public string Fecha
         {
             get;
             set;
         }
+
+        
     }
 }

@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SCE_Project.Consulta_reportes {
-    
-    
-    public partial class Consultar_reportes {
-        
+namespace SCE_Project.Consulta_reportes
+{
+
+
+    public partial class Consultar_reportes
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace SCE_Project.Consulta_reportes {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// ddllista control.
         /// </summary>
@@ -29,7 +31,16 @@ namespace SCE_Project.Consulta_reportes {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddllista;
-        
+
+        /// <summary>
+        /// rfvddllista control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvddllista;
+
         /// <summary>
         /// txfecha1 control.
         /// </summary>
@@ -38,7 +49,7 @@ namespace SCE_Project.Consulta_reportes {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txfecha1;
-        
+
         /// <summary>
         /// txfecha2 control.
         /// </summary>
@@ -47,7 +58,7 @@ namespace SCE_Project.Consulta_reportes {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txfecha2;
-        
+
         /// <summary>
         /// etfecha1 control.
         /// </summary>
@@ -56,7 +67,7 @@ namespace SCE_Project.Consulta_reportes {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label etfecha1;
-        
+
         /// <summary>
         /// etfecha2 control.
         /// </summary>
@@ -65,7 +76,7 @@ namespace SCE_Project.Consulta_reportes {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label etfecha2;
-        
+
         /// <summary>
         /// btest control.
         /// </summary>
@@ -74,14 +85,50 @@ namespace SCE_Project.Consulta_reportes {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btest;
-        
+
         /// <summary>
-        /// GridView1 control.
+        /// gdv1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
+        protected global::System.Web.UI.WebControls.GridView gdv1;
+
+        /// <summary>
+        /// txres1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txres1;
+
+        /// <summary>
+        /// etres1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label etres1;
+
+        /// <summary>
+        /// etres2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label etres2;
+
+        /// <summary>
+        /// txres2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txres2;
     }
 }

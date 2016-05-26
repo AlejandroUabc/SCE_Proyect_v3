@@ -348,35 +348,49 @@
 
 #btest{
     position:absolute;
-    top:25px;
-    left:640px;
+    top:80px;
+    left:1047px;
     width:100px;
     height:25.5px;
 }
 
 #resultados{
     position:absolute;
-    top:130px;
+    top:150px;
     width:900px;
     left:150px;
     height:100px;
 }
 
-#graficas{
+#resultados #gdv1{
     position:absolute;
-    top:20px;
-    left:200px;
-    width:900px;
-    height:500px;
+    top:10px;
+    left:20px;
 }
 
-#resultados #Charttr, #resultados #Chartkmrec, #resultados #Chartno, #resultados #Chartgen{
+#resultados #etres1{
     position:absolute;
-    top:500px;
-    left:200px;
-    width:500px;
-    height:200px;
+    top:30px;
+    left:600px;
+    
 }
 
+#resultados #etres2{
+    position:absolute;
+    top:60px;
+    left:600px;
+}
 
+#resultados #txres1{
+    position:absolute;
+    top:30px;
+    left:750px;
+    width:150px;
+}
 
+#resultados #txres2{
+    position:absolute;
+    top:60px;
+    left:750px;
+    width:150px;
+}

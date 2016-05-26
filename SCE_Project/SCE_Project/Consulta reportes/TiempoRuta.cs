@@ -7,35 +7,24 @@ namespace SCE_Project.Consulta_reportes
 {
     public class TiempoRuta
     {
-        public string idruta
+    
+        public string TiempoEnRuta
         {
             get;
             set;
         }
-        public string noRuta
+      
+        public string Nombre
         {
             get;
             set;
         }
-        public string tiemRuta
+        public string Fecha
         {
             get;
             set;
         }
-        public string nombreUsuarios
-        {
-            get;
-            set;
-        }
-        public string fecha
-        {
-            get;
-            set;
-        }
-        public string numCam
-        {
-            get;
-            set;
-        }
+
+
     }
 }

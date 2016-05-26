@@ -2,7 +2,7 @@
     width:400px;
     height:320px;
     position:absolute;
-    top:10px;
+    top:60px;
     left:10px;
     /*background-color:aqua;*/
 }
@@ -11,7 +11,7 @@
     width:720px;
     height:320px;
     position:absolute;
-    top:10px;
+    top:60px;
     left:450px;
     /*background-color:orangered;*/
 }
@@ -20,7 +20,7 @@
     width:1160px;
     height:200px;
     position:absolute;
-    top:320px;
+    top:370px;
     left:10px;
     margin-top:40px;
     /*background-color:lawngreen;*/
@@ -32,7 +32,6 @@
 }
 
 #txTD {
-    width:30px;
 }
 
 #camion2 .lb{
@@ -63,4 +62,10 @@
     margin-left:730px;
 }
 
+#etHR{
+    margin-left:35px;
+}
 
+#etKmFin{
+    margin-left:25px;
+}

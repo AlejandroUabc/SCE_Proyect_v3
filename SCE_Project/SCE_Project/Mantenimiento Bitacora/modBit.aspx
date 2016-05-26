@@ -56,7 +56,7 @@
 
     <br /><br /><br />
     <asp:Label ID="etNumRem" runat="server" Text="Número de remisión: "></asp:Label>
-    <asp:TextBox class="tx" ID="txNumRem"  type="text" requiredField="required" placeholder="" runat="server" ValidateRequestMode="Inherit" ></asp:TextBox>
+    <asp:TextBox class="tx" ID="txNumRem"  type="text" requiredField="required" placeholder="" runat="server" pattern="[\d\ ]{0,20}" ValidateRequestMode="Inherit" ToolTip="Sólo números" Required="required" ></asp:TextBox>
     <br /><br /><br />
     <asp:Label ID="etRevPapCon" runat="server" Text="Revisión papeleo:"></asp:Label>
             <asp:DropDownList ID="ddlRevPapCon" runat="server">
@@ -64,7 +64,7 @@
                 <asp:ListItem>Mañana</asp:ListItem>
                 <asp:ListItem>Tarde</asp:ListItem>
             </asp:DropDownList>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*" ControlToValidate="ddlRevPapCon" Display="Dynamic" InitialValue="0" BorderStyle="None" Font-Size="Medium" ForeColor="Red"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="rfvRevPapCon" runat="server" ErrorMessage="*" ControlToValidate="ddlRevPapCon" Display="Dynamic" InitialValue="0" BorderStyle="None" Font-Size="Medium" ForeColor="Red"></asp:RequiredFieldValidator>
             <br /><br />
         <br /><br />
             </asp:Panel>
@@ -73,9 +73,9 @@
         <legend>Datos camión</legend>
         <p>
         <asp:Label ID="etNumRuta" runat="server" Text="Número de ruta: "></asp:Label>
-        <asp:TextBox class="tx" ID="txNumRuta"  type="text" required="required" placeholder="" runat="server" maxlength="30" pattern="[\d\ ]{0,12}"></asp:TextBox>
+        <asp:TextBox class="tx" ID="txNumRuta"  type="text" required="required" placeholder="" runat="server" maxlength="30" pattern="[\d\ ]{0,12}" ToolTip="Solo números" Width="129px"></asp:TextBox>
         <asp:Label class="lb" ID="etNumCam" runat="server" Text="Número de camión: "></asp:Label>
-        <asp:TextBox class="tx" ID="txNumCam" runat="server" type="text" placeholder="" required="required" maxlength="30" pattern="[\d\ ]{0,12}"></asp:TextBox>
+        <asp:TextBox class="tx" ID="txNumCam" runat="server" type="text" placeholder="" required="required" maxlength="30" pattern="[\d\ ]{0,12}" ToolTip="Sólo números"></asp:TextBox>
         <br /><br />
         <asp:Label ID="etHS" runat="server" Text="Hora de salida: "></asp:Label>
         <asp:TextBox class="tx" ID="txHS" runat="server" type="time" required="required"></asp:TextBox>
@@ -88,7 +88,7 @@
         <asp:TextBox class="tx" ID="txKmFin"  type="text" required="required" placeholder="" runat="server" maxlength="30" pattern="[\d\ ]{0,12}"></asp:TextBox>
         <br /><br />
         <asp:Label class="lbCaja" ID="etNumCaja" runat="server" Text="Número de caja: "></asp:Label>
-        <asp:TextBox class="tx" ID="txNumCaja" runat="server" type="text" placeholder="" required="required" maxlength="30" pattern="[\d\ ]{0,12}"></asp:TextBox>
+        <asp:TextBox class="tx" ID="txNumCaja" runat="server" type="text" placeholder="" required="required" maxlength="30" pattern="[\d\ ]{0,12}" ToolTip="Solo números" Width="127px"></asp:TextBox>
         <asp:Label class="lb" ID="etCapCon" runat="server" Text="Capacidad del camión:"></asp:Label>
             <asp:DropDownList ID="ddlCapCon" runat="server">
                 <asp:ListItem Value="0">Seleccionar</asp:ListItem>
@@ -106,7 +106,7 @@
             <asp:RequiredFieldValidator ID="rfvDdlCap" runat="server" ErrorMessage="*" ControlToValidate="ddlCapCon" Display="Dynamic" InitialValue="0" BorderStyle="None" Font-Size="Medium" ForeColor="Red"></asp:RequiredFieldValidator>
             <br /><br />
         <asp:Label Class="etComRuta" ID="etComRuta" runat="server" Text="Comentario sobre ruta: "></asp:Label><br />
-            <asp:TextBox ID="txComRuta" type="text" runat="server" TextMode="MultiLine"></asp:TextBox>
+            <asp:TextBox ID="txComRuta" type="text" runat="server" TextMode="MultiLine" required="required"></asp:TextBox>
         </p>
         </asp:Panel>
 
@@ -115,7 +115,7 @@
         <legend>Datos del cliente</legend>
         <p>
                 <asp:Label ID="etNomCli" runat="server" Text="Nombre del cliente: "></asp:Label>
-                <asp:TextBox Class="tx" ID="txNomCli"  type="text" required="required" placeholder="" runat="server"></asp:TextBox>
+                <asp:TextBox Class="tx" ID="txNomCli" pattern="^[a-zA-Z''-'\s]{1,70}"  type="text" required="required" placeholder="" runat="server" ToolTip="Sólo letras"></asp:TextBox>
                 <br /><br />
                 <asp:Label ID="etHoraLlegada" runat="server" Text="Hora de llegada con el cliente: "></asp:Label>
                 <asp:TextBox class="tx" ID="txHoraLlegada"  type="time" required="required" placeholder="" runat="server"></asp:TextBox>
@@ -127,9 +127,9 @@
                  <asp:TextBox ID="txTD"  type="text" required="required" placeholder="" maxlength="30" pattern="[\d\ ]{0,12}" runat="server" Width="200px"></asp:TextBox><asp:Label ID="etMin" runat="server" Text="Min."></asp:Label>
                 <br /><br />
                 <asp:Label class="etComCli" ID="etComCli" runat="server" Text="Comentario sobre cliente: "></asp:Label><br />
-                <asp:TextBox ID="txComCli" type="text" runat="server" TextMode="MultiLine"></asp:TextBox>
+                <asp:TextBox ID="txComCli" type="text" runat="server" required="required" TextMode="MultiLine"></asp:TextBox>
             </p>
-        <asp:Button ID="btModificar" runat="server" Text="Modificar" OnClick="btModificar_Click" />
+        <asp:Button ID="btModificar" runat="server" Text="Modificar" OnClick="btModificar_Click" OnClientClick="javascript:return confirm(&quot;Seguro que desea modificar la bitácora?&quot;)" />
             <asp:Label ID="etNom2" runat="server" Text="idBitacora"></asp:Label>
              </asp:Panel>
         
@@ -138,3 +138,4 @@
     </form>
 </body>
 </html>
+

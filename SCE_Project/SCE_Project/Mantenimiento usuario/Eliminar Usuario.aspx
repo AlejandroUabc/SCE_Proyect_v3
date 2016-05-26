@@ -31,6 +31,7 @@
     
         <br />
         <asp:Button ID="btEliminar" runat="server" Text="Eliminar" OnClick="btEliminar_Click" />
+        <asp:Button ID="btCancelar" runat="server" OnClick="btCancelar_Click" Text="Cancelar" />
         <br />
     
     </div>
